@@ -1,0 +1,22 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+h1,
+h2,
+h3 {
+  color: rgb(87, 83, 83);
+}
+body {
+  font-family: "Syne Mono", monospace;
+}
+h3,
+h4 {
+  font-weight: 400;
+}
+
+@import "./song";
+@import "./player";
+@import "./library";
+@import "./nav";
